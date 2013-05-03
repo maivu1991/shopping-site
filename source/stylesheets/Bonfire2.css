@@ -22,12 +22,17 @@
  line-height: 0;
  height: 0;
 }
- 
-.clearfix {
-width:941px;
+.wrapper{
+	width:941px;
 height:auto;
 margin:0px auto;
 }
+ 
+/*.clearfix {
+width:941px;
+height:auto;
+margin:0px auto;
+}*/
  
 html[xmlns] .clearfix {
  display: block;
