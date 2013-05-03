@@ -240,12 +240,14 @@ li.slidesjs-pagination-item {
       margin-left: 10px;
       display:none;
     /*@include transition(all 0.25s ease-in);*/
-      &:hover{
-         .overlay{
-          display:block;
 
-      }
     }
+
+.overlay:hover {
+            .overlay{
+              display:block;
+              }
+ }
 #num{
   border-radius: 10px;
   background: #fb3005;
@@ -306,5 +308,6 @@ li.slidesjs-pagination-item {
                 }
           }
       }
+    }
   }
 }
