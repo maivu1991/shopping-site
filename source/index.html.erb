@@ -1,0 +1,258 @@
+<div id="header">
+    <div id="top">
+        <div id="wrapper1" class="clearfix">
+            <div id="logo">
+                <a href="#"><img src="images/logo.jpg" /></a>
+            </div><!-- logo -->
+            <div id="soturn">
+                So turn the lights out               
+            </div><!-- so turn -->               
+            <div id="wishlist">
+                <ul>
+                    <li><a href="#"> Wish list (0) </a></li>
+                    <li><a href="#"> My account </a></li>
+                    <li><a href="#"> Shopping cart </a></li>
+                    <li><a href="#"> Checkout </a></li>
+                </ul>            
+            </div><!-- wishlist-->              
+            
+           <div id="cart">
+           <button type="button" class="btn btn-warning"> <i class="icon-shopping-cart"></i> </button>
+           <div id="num">5</div>
+
+        </div>
+
+        </div><!-- wrapper1 -->
+    </div><!-- top -->
+            
+    <div id="middle">
+        <div id="wrapper2" class="clearfix">
+            <div id="dropdown">
+                <% 8.times do |i| %>
+                <ul>
+                    <li><%= data.settings.main_menu[i].level1%>
+                        <ul>
+                            <% data.settings.main_menu[i].level2.each do |x| %>
+                                <li><a href="#"><%= x %></a>
+                            <% end %>
+                                </li>
+                        </ul> 
+                    </li>
+                </ul>
+                <%end%>
+            </div>
+        </div><!-- wrapper2 -->
+    </div><!-- middle -->
+            
+    <div id="bottom">
+        <div id="wrapper3" class="clearfix">
+           	<div id="welcome">
+                Welcome visitor you can login or create an account.
+                
+            </div><!-- welcome -->
+                
+            <div id="socialicons">
+                
+            </div><!-- social icons -->
+                
+            <div id="currency">
+                
+            </div><!-- currency -->
+                
+            <div id="search">
+                       
+            </div><!-- search -->
+        </div><!-- wrapper3 -->
+    </div><!-- bottom -->
+</div><!-- header -->
+
+<div id="featured">
+    <div id="wrapper9" class="clearfix">
+        <div id="slides">
+            <img src="images/feature.jpg">
+            <img src="images/example-slide-2.jpg">
+            <img src="images/example-slide-3.jpg">
+            <img src="images/example-slide-4.jpg">
+       	</div>
+    </div>
+</div><!-- featured -->
+
+<div id="feaproduct">
+    <div id="wrapper7" class="clearfix">
+       	<ul class="products">
+           	<li class="wrappro"> 
+               	<ul class="product1"> 
+                    <li> <a href="#"> <img src="images/product1.jpg" /> </a> </li>
+                	 	<li> Mascot Kittey - White </li>
+                    <li> 
+                       	<ul class="addcart">
+                          	<li> <a href="#"><img src="images/addtocart.jpg" /></a> </li>
+                            <li> <img src="images/price.jpg" /> </li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+                
+            <li class="wrappro"> 
+              	<ul class="product1"> 
+                   	<li> <a href="#"> <img src="images/product2.jpg" /> </a> </li>
+                	 	<li> Bite Me </li>
+                    <li> 
+                       	<ul class="addcart">
+                           	<li> <a href="#"><img src="images/addtocart.jpg" /></a> </li>
+                            <li> <img src="images/price.jpg" /> </li>
+                        </ul>
+                   	</li>
+                </ul>
+            </li>
+                
+            <li class="wrappro"> 
+                <ul class="product1"> 
+                  	<li> <a href="#"> <img src="images/product3.jpg" /> </a> </li>
+                	 	<li> Little Fella </li>
+                    <li> 
+                      	<ul class="addcart">
+                          	<li> <a href="#"><img src="images/addtocart.jpg" /></a> </li>
+                            <li> <img src="images/price.jpg" /> </li>
+                        </ul>
+                    </li>
+               </ul>
+            </li>
+                
+            <li class="wrappro"> 
+              	<ul class="product1"> 
+                    <li> <a href="#"> <img src="images/product4.jpg" /> </a> </li>
+                	 	<li> Astral Cruise </li>
+                    <li> 
+                      	<ul class="addcart">
+                          	<li> <a href="#"><img src="images/addtocart.jpg" /></a> </li>
+                            <li> <img src="images/price.jpg" /> </li>
+                        </ul>
+                  	</li>
+                </ul>
+            </li>
+        </ul>
+    </div><!-- wrapper7 -->
+</div><!-- featured product -->
+        
+<div id="latproduct">
+    <div id="wrapper8" class="clearfix">
+        <% 4.times do |i| %>
+        <div class="pro1"> 
+            <div class="pic1"> <img src="images/product<%= i+1 %>.jpg"/> </div>
+            <div class="overlay">
+                <a href="#">abc</a>
+                <a href="#">def</a>
+            </div>
+            <p> Astral Cruise </p>
+            <div class="addcart1"> <a href="#"><img src="images/addtocart.jpg" /></a>
+            </div>
+            <div class="price"> <img src="images/price.jpg" />
+            </div>
+        </div>
+        <%end%>
+
+
+
+        <div class="pagination">
+            <ul>
+                <li class="disabled"><a href="#">&laquo;</a></li>
+                <li class="active"><a href="#">1</a></li>
+                <li><a href="#">2</a></li>
+                <li><a href="#">3</a></li>
+                <li><a href="#">4</a></li>
+                <li><a href="#">5</a></li>
+                <li class="disabled"><a href="#">&raquo;</a></li>
+            </ul>
+	      </div>
+    </div><!-- wrapper8 -->
+</div><!-- latest product -->
+        
+<div id="footer">
+    <div id="subfooter">
+        <div id="wrapper4" class="clearfix">
+            <ul class="suspen">
+                <li><a> Suspendisse sed </a>
+                    <p> Aliquam dignissim porttitor tortor non fermentum. Curabitur in </p></li>
+                <li><a> Suspendisse sed </a>
+                    <p> Aliquam dignissim porttitor tortor non fermentum. Curabitur in </p></li>
+                <li><a> Suspendisse sed </a>
+                   	<p> Aliquam dignissim porttitor tortor non fermentum. Curabitur in </p></li>
+            </ul>
+        </div><!-- wrapper4 -->
+    </div><!-- sub footer -->
+            
+    <div id="aboutfooter">
+        <div id="wrapper5" class="clearfix">
+            <ul>
+                <li> ABOUT US 
+                    <p> Suspendisse sed accumsan risus. Curabitur rhoncus, elit vel tin </p>
+                </li>
+                <li> INFORMATION 
+                    <ul class="footlist">
+                        <li><a href="#"> About us </a> </li>
+                        <li><a href="#"> Delivery Information </a></li>
+                        <li><a href="#"> About Us </a></li>
+                        <li><a href="#"> Privacy Policy </a></li>
+                        <li><a href="#"> Terms & Conditions </a></li>
+                    </ul>	
+                </li>
+                <li> CUSTOMER SERVICE 
+                    <ul class="footlist">
+                        <li><a href="#"> Contact Us </a> </li>
+                        <li><a href="#"> Returns </a></li>
+                        <li><a href="#"> Site Map </a></li>
+                    </ul>	
+                </li>
+                <li> MY ACCOUNT
+                    <ul class="footlist">
+                        <li><a href="#"> Sony </a> </li>
+                        <li><a href="#"> Android </a></li>
+                        <li><a href="#"> Apple </a></li>
+                        <li><a href="#"> Acer </a></li>
+                        <li><a href="#"> HP </a></li>
+                        <li><a href="#"> Intel </a></li>
+                    </ul>	
+                </li>
+                <li> EXTRAS 
+                    <ul class="footlist">
+                        <li><a href="#"> Sony </a> </li>
+                        <li><a href="#"> Android </a></li>
+                        <li><a href="#"> Apple </a></li>
+                        <li><a href="#"> Acer </a></li>
+                        <li><a href="#"> HP </a></li>
+                        <li><a href="#"> Intel </a></li>
+                    </ul>	
+                </li>
+            </ul>
+        </div>
+    </div><!-- about footer -->
+            
+    <div id="botfooter">
+        <div id="wrapper6" class="clearfix">
+            <ul>
+                <li> copyright of bonfire 2012 All Rights Reserved </li>
+                <li> powered by opencart </li>
+            </ul>
+        </div><!-- wrapper 6 -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div><!-- bot footer -->
+</div><!-- footer -->

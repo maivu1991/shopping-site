@@ -1,0 +1,56 @@
+site_title:
+  main: Bonfire
+
+main_menu:
+  - level1: Desktops
+    level2:
+      - Sony ()
+      - Android ()
+      - Apple ()
+      - Acer ()
+      - HP ()
+  - level1: Laptops & Notebooks
+    level2:
+      - Sony ()
+      - Android ()
+      - Apple ()
+      - Acer ()
+      - HP ()
+      - Intel ()
+  - level1: Components
+    level2:
+      - Sony ()
+      - Android ()
+      - Apple ()
+      - Acer ()
+      - HP ()
+  - level1: Tablets
+    level2:
+      - Apple ()
+      - Samsung ()
+      - Lenovo ()
+      - Acer ()
+  - level1: Software
+    level2:
+      - Microsoft ()
+      - Vinova ()
+  - level1: Phones & PDAs
+    level2:
+      - Sony ()
+      - Samsung ()
+      - Apple ()
+      - Acer ()
+      - Motorola ()
+      - Nokia ()
+  - level1: Cameras
+    level2:
+      - Canon ()
+      - Samsung ()
+  - level1: Contact
+    level2:
+      - Hotline 1
+      - Hotline 2
+      - Hotline 3
+
+banners:
+  -/images/brand1.jpg

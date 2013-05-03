@@ -1,0 +1,189 @@
+/*@charset "utf-8";
+
+*{
+  margin:0;
+  padding:0;
+}
+
+#top{
+  background-image:url(images/top_bg.jpg);
+  height:80px;
+  color:#FFF;
+  text-transform:uppercase;
+  font-size:12px;
+}
+
+.clearfix:after {
+ content: ".";
+ display: block;
+ clear: both;
+ visibility: hidden;
+ line-height: 0;
+ height: 0;
+}
+ 
+.clearfix {
+width:941px;
+height:auto;
+margin:0px auto;
+ display: inline-block;
+}
+ 
+html[xmlns] .clearfix {
+ display: block;
+}
+ 
+* html .clearfix {
+ height: 1%;
+}
+.clearfix: last-child {
+border:none;
+}
+
+
+#logo{
+  padding-top:15px;
+  float:left;
+}
+#soturn{
+  padding-top:35px;
+  padding-left:10px;
+  
+  float:left;
+}
+#wishlist{
+  padding-left:140px;
+  padding-top:35px;
+  float:left;
+}
+#wishlist ul li{
+  padding-left:20px;
+  list-style-type:none;
+  display:inline;
+}
+#wishlist ul li a{
+  text-decoration:none;
+  color:#FFF;
+  
+}
+#cart{
+  padding-top:25px;
+  padding-left:20px;
+  float:left;
+}
+
+#middle{
+  background-image:url(images/mid_bg.jpg);
+  height:70px;
+}
+
+ul.prolist li{
+  list-style-type: none;
+  float:left;
+  text-align:center;
+  padding-right:40px;
+  line-height:68px;
+}
+
+
+ul.prolist li a{
+  text-decoration:none;
+  color:#8d8263;
+  display: block;
+  
+}
+
+ul.prolist li a:hover{
+  color: white; 
+}
+
+#bottom{
+  background-image:url(images/bot_bg.jpg);
+  height:69px;
+  color:#acaaa2;
+}
+
+#welcome{
+  font-style:italic;
+  line-height:55px;
+  font-size:14px;
+}
+
+#featured{
+  text-align:center;
+}
+#subfooter{
+  background-image:url(images/subfooter_bg.jpg);
+  height:144px;
+  color:#a59a7c;
+}
+ul.suspen li{
+  list-style-type:none;
+  float:left;
+  width:312px;
+}
+ul.suspen li a{
+  text-transform:uppercase;
+  color:#747272;
+}
+#aboutfooter{
+  background-image:url(images/footer_bg.jpg);
+  height:247px;
+  color:#FFF;
+}
+
+#aboutfooter ul li{
+  list-style-type:none;
+  padding-right:20px;
+  width:165px;
+  float:left; 
+}
+ul.footlist li a{
+  color:#c9c9c9;
+  text-decoration:none;
+}
+#aboutfooter ul li p{
+  color:#c9c9c9;
+}
+#botfooter{
+  background-image:url(images/botfooter_bg.jpg);
+  height:72px;
+  color:#848484;
+}
+#botfooter ul li{
+  list-style-type:none;
+  text-transform:uppercase;
+  font-size:12px;
+  padding-right:200px;
+  line-height:80px;
+  float:left;
+}
+ul.products li{
+  list-style-type:none;
+  float:left;
+}
+ul.product1 li{
+  padding-top:7px;
+  padding-left:7px;
+  list-style-type:none;
+  color:#898989;
+  float:none;
+}
+ul.product1{
+  background-image:url(images/product_bg.jpg);
+  width:219px;
+  height:269px;
+}
+.product1 li{
+}
+ul.addcart li{
+  padding-right:15px;
+  float:left;
+}
+.wrappro{
+  padding:8px;
+}
+
+.slidesjs-pagination li a.active, .slidesjs-pagination li a:hover.active {
+background-position: 0 -13px;
+}*/
